@@ -1,27 +1,113 @@
 {
-  "name": "com-zendrive-phonegap-sdk",
-  "description": "Phonegap plugin for the Zendrive SDK.",
-  "version": "2.3.3",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/pulluptech/com-zendrive-phonegap-sdk.git"
+  "_args": [
+    [
+      {
+        "raw": "com-zendrive-phonegap-sdk@git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+        "scope": null,
+        "escapedName": "com-zendrive-phonegap-sdk",
+        "name": "com-zendrive-phonegap-sdk",
+        "rawSpec": "git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+        "spec": "git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:pulluptech/zendrive-sdk-phonegap-plugin.git",
+          "sshUrl": "git+ssh://git@github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+          "httpsUrl": "git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+          "gitUrl": "git://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+          "shortcut": "github:pulluptech/zendrive-sdk-phonegap-plugin",
+          "directUrl": "https://raw.githubusercontent.com/pulluptech/zendrive-sdk-phonegap-plugin/master/package.json"
+        }
+      },
+      "D:\\trabalhos\\trackerup\\trackerup\\node_modules"
+    ]
+  ],
+  "_from": "git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+  "_id": "com-zendrive-phonegap-sdk@2.3.3",
+  "_inCache": true,
+  "_location": "/com-zendrive-phonegap-sdk",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "com-zendrive-phonegap-sdk@git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+    "scope": null,
+    "escapedName": "com-zendrive-phonegap-sdk",
+    "name": "com-zendrive-phonegap-sdk",
+    "rawSpec": "git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+    "spec": "git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:pulluptech/zendrive-sdk-phonegap-plugin.git",
+      "sshUrl": "git+ssh://git@github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+      "httpsUrl": "git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+      "gitUrl": "git://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+      "shortcut": "github:pulluptech/zendrive-sdk-phonegap-plugin",
+      "directUrl": "https://raw.githubusercontent.com/pulluptech/zendrive-sdk-phonegap-plugin/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git#556b03d66f6759805ec014afbc0a93cf3ba38335",
+  "_shasum": "556b03d66f6759805ec014afbc0a93cf3ba38335",
+  "_shrinkwrap": null,
+  "_spec": "com-zendrive-phonegap-sdk@git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+  "_where": "D:\\trabalhos\\trackerup\\trackerup\\node_modules",
+  "author": {
+    "name": "Zendrive, PullUp"
   },
   "bugs": {
-    "url": "https://github.com/pulluptech/com-zendrive-phonegap-sdk/issues"
+    "url": "https://github.com/pulluptech/zendrive-sdk-phonegap-plugin/issues"
   },
+  "cordova": {
+    "id": "com-zendrive-phonegap-sdk",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "Phonegap plugin for the Zendrive SDK.",
+  "devDependencies": {},
+  "engines": {
+    "cordovaDependencies": {
+      "2.3.3": {
+        "cordova": ">=7.1.0",
+        "cordova-android": ">=6.3.0",
+        "cordova-ios": ">-4.4.0"
+      },
+      "<2.3.3": {
+        "cordova": ">=6.4.0",
+        "cordova-android": ">=6.0.0",
+        "cordova-ios": ">=4.3.0"
+      }
+    }
+  },
+  "gitHead": "556b03d66f6759805ec014afbc0a93cf3ba38335",
+  "homepage": "https://github.com/pulluptech/zendrive-sdk-phonegap-plugin#README",
   "keywords": [
+    "gps",
+    "location",
+    "tracking",
+    "geolocation",
+    "geofence",
+    "geofencing",
+    "background",
     "ecosystem:cordova",
-    "ecosystem:phonegap"
+    "cordova-android",
+    "cordova-ios",
+    "cordova-wp8",
+    "cordova",
+    "phonegap"
   ],
-  "author": "ZendDrive / PullUp Tech",
-  "license": "Apache-2.0",
-  "dependencies": {
-    "inquirer": "^2.0.0",
-    "shelljs": "~0.3.0",
-    "validate-npm-package-license": "^3.0.1"
+  "license": "MIT",
+  "name": "com-zendrive-phonegap-sdk",
+  "optionalDependencies": {},
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git"
   },
-  "devDependencies": {
-    "jasmine": "^2.5.2",
-    "jshint": "^2.9.4"
-  }
+  "version": "2.3.3"
 }
