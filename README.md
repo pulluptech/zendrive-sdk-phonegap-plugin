@@ -19,7 +19,6 @@ You can integrate zendrive-sdk-phonegap-plugin in your application to get Zendri
 <h3>How to integrate</h3>
 
 <h4>Integrate zendrive phonegap plugin by running the following cordova command</h4>
-~~<code>cordova plugin add https://github.com/zendrive/zendrive-sdk-phonegap-plugin</code>~~
 <code>cordova plugin add https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git</code>
 
 
