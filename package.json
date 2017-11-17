@@ -1,52 +1,27 @@
 {
   "name": "com-zendrive-phonegap-sdk",
+  "description": "Phonegap plugin for the Zendrive SDK.",
   "version": "2.3.3",
-  "description": "Phonegap plugin for the Zendrive SDK",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git"
+    "url": "git://github.com/pulluptech/com-zendrive-phonegap-sdk.git"
   },
-  "_location": "/com-zendrive-phonegap-sdk",
-  "cordova": {
-    "id": "com-zendrive-phonegap-sdk",
-    "platforms": [
-      "ios",
-      "android"
-    ]
-  },
-  "engines": {
-    "cordovaDependencies": {
-      "2.9.0": {
-        "cordova": ">=7.1.0",
-        "cordova-android": ">=6.3.0",
-        "cordova-ios": ">-4.4.0"
-      },
-      "<2.9.0": {
-        "cordova": ">=6.4.0",
-        "cordova-android": ">=6.0.0",
-        "cordova-ios": ">=4.3.0"
-      }
-    }
+  "bugs": {
+    "url": "https://github.com/pulluptech/com-zendrive-phonegap-sdk/issues"
   },
   "keywords": [
-    "gps",
-    "location",
-    "tracking",
-    "geolocation",
-    "zendrive",
-    "geofencing",
-    "background",
     "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios",
-    "cordova-wp8",
-    "cordova",
-    "phonegap"
+    "ecosystem:phonegap"
   ],
-  "author": "zendrive",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pulluptech/zendrive-sdk-phonegap-plugin/issues"
+  "author": "ZendDrive / PullUp Tech",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "inquirer": "^2.0.0",
+    "shelljs": "~0.3.0",
+    "validate-npm-package-license": "^3.0.1"
   },
-  "homepage": "https://github.com/pulluptech/zendrive-sdk-phonegap-plugin#readme"
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "jshint": "^2.9.4"
+  }
 }
