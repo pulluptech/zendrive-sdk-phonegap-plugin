@@ -261,7 +261,6 @@ static NSString * const kDriverAttributesKey = @"driverAttributes";
     }
     NSDictionary *driveInfoDictionary = @{kStartTimestampKey:@(driveInfo.startTimestamp),
                                           kEndTimestampKey:@(driveInfo.endTimestamp),
-                                          kIsValidKey:@(driveInfo.isValid),
                                           kAverageSpeedKey:@(driveInfo.averageSpeed),
                                           kDistanceKey:@(driveInfo.distance),
                                           kWaypointsKey:waypointsArray};
