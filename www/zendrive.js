@@ -1,4 +1,4 @@
-/*global cordova, module teste*/
+/*global cordova, module*/
 var exec = require('cordova/exec');
 
 /**
@@ -112,8 +112,8 @@ Zendrive.teardown = function () {
  *  drive data. Cannot be null or empty string. Cannot be longer than 64 characters. Sending null or
  *  empty string as tracking id is a no-op.
  */
-Zendrive.startDrive = function (driveTrackingId) {
-    exec(null, null, "Zendrive", "startDrive", [driveTrackingId]);
+Zendrive.startDrive = function (driveTrackingId, startDriveSuccessCallback, startDriveFailureCallback) {
+    exec(startDriveSuccessCallback, startDriveFailureCallback, "Zendrive", "startDrive", [driveTrackingId]);
 };
 
 /**
@@ -138,8 +138,8 @@ Zendrive.getActiveDriveInfo = function (callback) {
  * @{@link Zendrive.startDrive} while starting the current drive. If the trackingIds do not match, this
  * function is a no-op. Cannot be null or empty string.
  */
-Zendrive.stopDrive = function (driveTrackingId) {
-    exec(null, null, "Zendrive", "stopDrive", [driveTrackingId]);
+Zendrive.stopDrive = function (driveTrackingId, stopDriveSuccessCallback, stopDriveFailureCallback) {
+    exec(stopDriveSuccessCallback, stopDriveFailureCallback, "Zendrive", "stopDrive", [driveTrackingId]);
 };
 
 /**
