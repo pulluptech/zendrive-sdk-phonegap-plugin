@@ -41,6 +41,39 @@
         }
       },
       "D:\\trabalhos\\trackerup\\trackerup\\node_modules"
+    ],
+    [
+      {
+        "raw": "file:///D:\\trabalhos\\trackerup\\trackerup-zendrive-sample\\plugins\\com-zendrive-phonegap-sdk",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "file:///D:\\trabalhos\\trackerup\\trackerup-zendrive-sample\\plugins\\com-zendrive-phonegap-sdk",
+        "spec": "D:\\trabalhos\\trackerup\\trackerup-zendrive-sample\\plugins\\com-zendrive-phonegap-sdk",
+        "type": "directory"
+      },
+      "D:\\trabalhos\\trackerup\\trackerup"
+    ],
+    [
+      {
+        "raw": "https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+        "spec": "git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:pulluptech/zendrive-sdk-phonegap-plugin.git",
+          "sshUrl": "git+ssh://git@github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+          "httpsUrl": "git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+          "gitUrl": "git://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
+          "shortcut": "github:pulluptech/zendrive-sdk-phonegap-plugin",
+          "directUrl": "https://raw.githubusercontent.com/pulluptech/zendrive-sdk-phonegap-plugin/master/package.json"
+        }
+      },
+      "/Users/pulluptecnologia/Desktop/trackerup"
     ]
   ],
   "_from": "git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
@@ -70,11 +103,11 @@
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git#7678e38ac24020d685e8f0695b8507c9151cd8d3",
-  "_shasum": "2599d064d0d658f8d12361599afb6542a45aa2a8",
+  "_resolved": "git+https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git#3b62947bff953e7cf26a7e7068b75b542df8bdc1",
+  "_shasum": "816ffee8b1dc4bbe8ef50d5fb9ac570faa2e9e44",
   "_shrinkwrap": null,
   "_spec": "https://github.com/pulluptech/zendrive-sdk-phonegap-plugin.git",
-  "_where": "D:\\trabalhos\\trackerup\\trackerup\\node_modules",
+  "_where": "/Users/pulluptecnologia/Desktop/trackerup",
   "author": {
     "name": "Zendrive, PullUp"
   },

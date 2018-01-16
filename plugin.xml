@@ -38,12 +38,13 @@
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <service android:name="com.zendrive.sdk.services.UserActivityService" />
             <service android:name="com.zendrive.sdk.services.ZendriveService" />
-            <receiver android:name="com.zendrive.phonegap.ZendriveCordovaBroadcastReceiver" android:label="ZendriveCordovaBroadcastReceiver"></receiver>
+            <receiver android:name="com.zendrive.sdk.receiver.WakeupReceiver"
+                android:label="WakeupReceiver"></receiver>
             <service android:name="com.zendrive.phonegap.ZendriveIntentService" />
         </config-file>
 
         <source-file src="src/android/com/zendrive/phonegap/ZendriveCordovaPlugin.java" target-dir="src/com/zendrive/phonegap" />
-        <source-file src="src/android/com/zendrive/phonegap/ZendriveCordovaBroadcastReceiver.java" target-dir="src/com/zendrive/phonegap" />
+        <source-file src="src/android/com/zendrive/phonegap/ZendriveIntentService.java" target-dir="src/com/zendrive/phonegap" />
         <source-file src="src/android/com/zendrive/phonegap/ZendriveManager.java" target-dir="src/com/zendrive/phonegap" />
 
         <!-- External Libraries -->
@@ -71,27 +72,29 @@
             </dict>
         </config-file>
 
+
+        <framework src="ZendriveSDK" type="podspec" spec=":git => 'https://bitbucket.org/zendrive-root/zendrive_cocoapod.git', :tag => '5.1.0' " />
         <header-file src="src/ios/ZendriveCordovaPlugin.h" />
         <source-file src="src/ios/ZendriveCordovaPlugin.m" />
 
         <!-- Resource files required by AWS framework -->
-        <resource-file src="src/ios/resources/s3-2006-03-01.json" />
-        <resource-file src="src/ios/resources/sqs-2012-11-05.json" />
+        <!--resource-file src="src/ios/resources/s3-2006-03-01.json" />
+        <resource-file src="src/ios/resources/sqs-2012-11-05.json" /-->
 
         <!-- System frameworks -->
-        <framework src="CoreLocation.framework" />
+        <!--framework src="CoreLocation.framework" />
         <framework src="CoreMotion.framework" />
         <framework src="SystemConfiguration.framework" />
         <framework src="libsqlite3.0.dylib" />
         <framework src="libz.1.1.3.dylib" />
-        <framework src="libc++.dylib" />
+        <framework src="libc++.dylib" /-->
 
         <!-- External Frameworks -->
 
-        <framework src="src/ios/Frameworks/AWSCore.framework" custom="true" />
+        <!--framework src="src/ios/Frameworks/AWSCore.framework" custom="true" />
         <framework src="src/ios/Frameworks/AWSSQS.framework" custom="true" />
         <framework src="src/ios/Frameworks/FMDB.framework" custom="true" />
         <framework src="src/ios/Frameworks/Reachability.framework" custom="true" />
-        <framework src="src/ios/Frameworks/ZendriveSDK.framework" custom="true" />
+        <framework src="src/ios/Frameworks/ZendriveSDK.framework" custom="true" /-->
     </platform>
 </plugin>
